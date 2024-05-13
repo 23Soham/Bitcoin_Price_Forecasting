@@ -41,3 +41,4 @@ Exploratory Data Analysis (EDA) will present a detailed examination of the Bitco
 Since the output variable would range from 0 to 1, it is said to be a Regression model. Therefore the metrics that were considered are as follows:
 
 - **Accuracy** https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html
+- **Confusion Matrix** https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html
