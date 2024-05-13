@@ -35,3 +35,9 @@ Exploratory Data Analysis (EDA) will present a detailed examination of the Bitco
 - Examine long-term price trends to understand how Bitcoin’s value has evolved over the years.
 - Analyze the relationship between trading volume and price changes to determine the impact of market activity on price dynamics.
 - Charts, graphs, and visual representations will be used to illustrate our findings, providing clear insights into Bitcoin’s market behavior. The goal is to understand the nuances of the dataset thoroughly, forming the basis for predictive modeling and further research.
+
+
+### **Metrics Used**
+Since the output variable would range from 0 to 1, it is said to be a Regression model. Therefore the metrics that were considered are as follows:
+
+- **Accuracy** https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html
