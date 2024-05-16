@@ -46,3 +46,10 @@ Since the output variable would range from 0 to 1, it is said to be a Regression
 - [F1 Score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)
 - [Confusion Matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
 
+### **Machine Learning Models**
+Following are the Machine learning Models used:
+
+- [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+- [Gaussian Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html#gaussian-naive-bayes)
+- [Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+- [Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
