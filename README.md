@@ -42,3 +42,5 @@ Since the output variable would range from 0 to 1, it is said to be a Regression
 
 - **Accuracy** https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html
 - **Confusion Matrix** https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html
+- **Precision https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html**
+- **F1 score https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html**
