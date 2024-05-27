@@ -36,6 +36,18 @@ Exploratory Data Analysis (EDA) will present a detailed examination of the Bitco
 - Analyze the relationship between trading volume and price changes to determine the impact of market activity on price dynamics.
 - Charts, graphs, and visual representations will be used to illustrate our findings, providing clear insights into Bitcoin’s market behavior. The goal is to understand the nuances of the dataset thoroughly, forming the basis for predictive modeling and further research.
 
+### **Feature Engineering**
+Feature engineering is crucial for effective machine learning in dynamic domains like cryptocurrency markets. In Bitcoin price forecasting, temporal features play a key role. These include:
+
+Year: Captures long-term trends.
+Month: Identifies seasonal patterns.
+Day: Reflects pay cycle effects.
+Weekday: Accounts for differences between weekdays and weekends.
+Hour: Captures intraday volatility.
+By leveraging these features, models can better grasp temporal correlations, leading to more accurate price forecasts in the 24/7 Bitcoin market.
+
+<img width="359" alt="image" src="https://github.com/23Soham/Bitcoin_Price_Forecasting/assets/144841969/5005428e-68e2-4763-8371-7c00a8aaab41">
+
 
 ### **Metrics Used**
 Since the output variable would range from 0 to 1, it is said to be a Regression model. Therefore the metrics that were considered are as follows:
@@ -53,3 +65,10 @@ Following are the Machine learning Models used:
 - [Gaussian Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html#gaussian-naive-bayes)
 - [Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
 - [Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+
+### **Comparison of RMSE Across Different Machine Learning Models**
+
+<img width="468" alt="image" src="https://github.com/23Soham/Bitcoin_Price_Forecasting/assets/144841969/7c3e2371-40ba-402d-9398-af1e461ee029">
+
+Lower RMSE indicates better prediction accuracy. In comparing four regression models, Linear Regression performs best with RMSE of 12.91, suggesting strong fit. Random Forest follows closely at 15.58, showing good predictive performance. XGBoost's high RMSE of 123.07 may be due to suboptimal tuning. Decision Tree has highest RMSE at 490.28, possibly overfitting training data. Linear Regression and Random Forest are most accurate in this case.
+
